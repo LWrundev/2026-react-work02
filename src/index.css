@@ -1,0 +1,12 @@
+.card-img-top{
+    width: 100%;       /* 寬度撐滿 */
+    height: 400px;     /* 固定高度 */
+    object-fit: cover; /* 關鍵：縮放並裁切，不拉伸失真 */
+    object-position: center; /* 圖片對齊中心 */ 
+}
+.img-fix{
+    width: 100%;       /* 寬度撐滿 */
+    aspect-ratio: 1;     /* 固定高度 */
+    object-fit: cover;
+    object-position: center; /* 圖片對齊中心 */ 
+}
